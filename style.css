@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/008/014/115/non_2x/tropical-leaves-background-design-summer-leaves-flat-illustration-simple-banner-with-copy-space-free-vector.jpg");
+    background-color: #15c418; 
+    background-repeat: no-repeat;
+    background-size:cover ;
+    text-align: center;
+}
+body,p{
+    font-size: 2rem;
+    text-decoration: dotted;
+}
+
+main, h1{
+    margin-top: 3rem;
+    font-size: 3.4rem;
+    color: #212f11;
+}
+
+.container{
+    margin-top: 3rem;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+
+.game{
+    height: 69vh;
+    width: 35vw;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;  
+}
+.box{
+    height: 22.1vmin;
+    width: 22.1vmin;
+    border-radius: 4px;
+    margin: auto;
+    font-size: 150%;
+    color: rgb(17, 207, 255);
+    background-color: rgb(38, 165, 42);
+}
+
+#reset, #new-btn{
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: rgb(196, 21, 21);
+    border-radius: 12px;
+    color: aliceblue;
+    border: none;
+    margin-top: 3rem;
+}
+.hide{
+    display: none;
+}
+#msg{
+    font-size: 70px;
+    text-decoration: underline;
+    margin-top: 1rem;
+    color: rgb(0, 0, 0);
+}
+
